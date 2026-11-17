@@ -1,7 +1,6 @@
 import streamlit as st
 import google.generativeai as genai
 from PIL import Image  # Librería para manejar imágenes en Python
-SII
 # --- 1. CONFIGURACIÓN INICIAL ---
 # st.secrets['GOOGLE_API_KEY'] busca la llave que guardamos en el Setting de Streamlit Cloud.
 if "GOOGLE_API_KEY" in st.secrets:
